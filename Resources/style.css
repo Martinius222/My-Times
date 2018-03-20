@@ -61,92 +61,13 @@ nav span a {
 	color: black;
 }
 
-/*Main content section*/
+/*Main Content */
 
-.container {
+main {
+	display: flex;
 	width: 70%;
+	height: 600px;
 	margin: 0 auto;
-	display: flex;
 	border: 1px solid black;
-}
-
-.columnbig {
-	width: 630px;
-	display: flex;
-	flex-direction: column;
-	border: 1px solid black;
-	margin-top: 35px;
-	margin-right: 35px;
-
-
-}	
-
-.columnbig h2 {
-	font-family: Georgia;
-	font-size: 17px;
-	color: black;
-}
-
-.columnmedium {
-	width: 300px;
-	display: flex;
-	flex-direction: column;
-	border: 1px solid black;
-	margin-top: 35px;
-	margin-right: 35px;
-}
-.columnmedium h2 {
-	font-family: Georgia;
-	font-size: 17px;
-	color: black;
-}
-
-.columnsmall {
-	width: 240px;
-	display: flex;
-	border: 1px solid black;
-	margin-top: 35px;
-	margin-right: 35px;
-}
-
-.columnbig div {
-	border: 1px solid black;
-}
-
-.columnmedium div {
-	border: 1px solid black;
-}
-
-.columnsmall div {
-	border: 1px solid black;
-}
-
-#img1 {
-	background-image: url(./images/img-story-main.png);
-	display: flex;
-}
-#img1 p {
-	font-size: 40px;
-	font-family: Georgia;
-	font-weight: bold;
-	color: white;
-}
-
-#img2 {
-	height: 300px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-image: url(./images/img-story-2.png);
-}	
-
-#img2 p {
-	font-size: 30px;
-	font-family: Georgia;
-	font-weight: bold;
-	color: white;
 
 }
-
-
-
